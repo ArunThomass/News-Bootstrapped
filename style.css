@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-size: large;
+}
+.link{
+    color: hsl(236, 13%, 42%);
+    transition: 0.5s color ease
+}
+.link:hover {
+  color: red;
+}
+.navbar{
+    animation: fadeInDown 1.5s ease forwards;
+}
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .alink{
+    color: white;
+    transition: 0.5s color ease
+  }
+  .alink:hover {
+    color: red;
+  }
+  .new_articles{
+    animation: fadeInRight 1.2s ease-out forwards;
+  }
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .blink{
+    color:black;
+    transition: 0.5s color ease
+  }
+  .blink:hover {
+    color: red;
+  }
+  .btn{
+    transition: 0.5s color ease;
+  }
+  .btn:hover{
+    background-color: hsl(236, 13%, 42%);
+    border-color:hsl(236, 13%, 42%) ;
+  }
+  
